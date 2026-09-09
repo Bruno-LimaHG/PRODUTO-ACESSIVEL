@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Acessível</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="produto" aria-labelledby="titulo-produto">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Camiseta branca básica de algodão" class="produto-imagem">
+        
+        <h1 id="titulo-produto" class="produto-titulo">Camiseta Branca Básica</h1>
+        <p class="produto-descricao">Uma camiseta confortável e de alta durabilidade para o seu dia a dia.</p>
+        <p class="produto-preco">R$ 49,90</p>
+        
+        <div class="acoes">
+            <button id="comprar" class="btn btn-comprar" aria-label="Adicionar camiseta ao carrinho">Comprar 🛒</button>
+            <button id="saiba-mais" class="btn btn-secundario">Saiba Mais</button>
+        </div>
+        
+        <div id="mensagem" class="mensagem" aria-live="polite"></div>
+    </main>
+</body>
+</html>
