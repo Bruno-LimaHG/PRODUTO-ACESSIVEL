@@ -23,7 +23,7 @@ Criar uma interface visualmente atraente utilizando animações e interações, 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/produto-acessivel.git
+   git clone https://github.com/Bruno-LimaHG/produto-acessivel.git
    ```
 2. Abra a pasta do projeto no seu editor de código (como o VS Code).
 3. Utilize a extensão **Live Server** para abrir o arquivo `index.html` no seu navegador.
